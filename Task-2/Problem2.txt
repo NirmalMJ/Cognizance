@@ -1,0 +1,25 @@
+Function Main
+    Output "Fibonacci Series Printer"
+    Declare Integer Range
+    
+    Output "Till what term you need to print the series"
+    Input Range
+    Call F(Range)
+End
+
+Function F (Integer Range)
+    Declare Integer Previous, Current, Next, Loop1
+    
+    Assign Previous = 0
+    Assign Current = 1
+    If Range >= 2
+        For Loop1 = 0 to Range - 2
+            Assign Next = Previous + Current
+            Assign Previous = Current
+            Assign Current = Next
+        End
+        Output Current
+    False:
+        Output Previous
+    End
+End
