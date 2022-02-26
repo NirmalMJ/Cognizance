@@ -1,0 +1,18 @@
+
+1.   repeat 25 echo "Sri Nirmal Kumaar"
+
+2.   head -30 syslog.txt
+
+3.   tail -30 syslog.txt
+
+4.   	sort -d
+	
+	sort -r 
+	
+	sort -n 
+
+5. 	sort -u
+
+6. 	read 
+	write
+	execute
